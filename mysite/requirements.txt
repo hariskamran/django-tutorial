@@ -1,1 +1,4 @@
-Django
+django
+django-environ
+psycopg2
+dj_database_url
