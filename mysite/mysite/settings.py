@@ -25,10 +25,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '-&=lf#8&wn1wu!ui1d!afb66p(nr%lu=&+ci_uroogeyz1ml)4'
+# SECRET_KEY = '-&=lf#8&wn1wu!ui1d!afb66p(nr%lu=&+ci_uroogeyz1ml)4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', '.now.sh']
 
